@@ -113,12 +113,12 @@ body {
 }
 
 .LeavesOrig{
-    background-image: url("Images/Orig/LeavesOrig.png");
+    background-image: url("Images/Orig/leavesOrig.png");
     z-index: 12;
 }
 
 .RapunzelOrig {
-    background-image: url("Images/Orig/RapunzelOrig.png");
+    background-image: url("Images/Orig/rapunzelOrig.png");
     z-index: 11;
 }
 
@@ -128,7 +128,7 @@ body {
 }
 
 .TreeOrig {
-    background-image: url("Images/Orig/TreeOrig.png");
+    background-image: url("Images/Orig/treeOrig.png");
     z-index: 7;
 }
 
@@ -150,7 +150,7 @@ body {
     z-index: 2;
 }
 .SkyOrig {
-    background-image: url("Images/Orig/SkyOrig2.png");
+    background-image: url("Images/Orig/skyOrig2.png");
     z-index: 1;
 }
 

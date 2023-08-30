@@ -1,0 +1,56 @@
+
+.loader {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #824BB3;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader-pic {
+    position: absolute;
+    top: -5%;
+    height: 100%;
+    width: 100%;
+    background-image: url("Images/Loader/tangled loading graphic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation: loadingPicture 4s ease 1;
+}
+
+.loader-shadow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 2%;
+    margin: auto;
+    width: 80px;
+    height: 20px;
+    background-color: black;
+    opacity: 50%;
+    border-radius: 50%;
+    animation: loadingShadow 4s ease 1;
+}
+ 
+
+.loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes loadingPicture {
+    from { top: -100%}
+    to {top: -5%}
+}
+
+@keyframes loadingShadow {
+    from { opacity: 0%,}
+    to { opacity: 50%;}
+
+    from { transform: scale(0.1)}
+    to { transform: scale(1)}
+}

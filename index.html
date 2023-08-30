@@ -1,35 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="loaderStyles.css" />
+    <script src="loaderScript.js" defer></script>
     <script src="script.js" defer></script>
     <title>Tangled 3D Poster</title>
-</head>
-<body>
-        <div class="container">
-            <div class="text image"></div>
-            <div class="text-shadow image"></div>
-            <div class="frame1 image"></div>
-            <div class="frame2 image"></div>
-            <div class="front-leaves image"></div>
-            <div class="rapunzel image"></div>
-            <div class="side-chars image"></div>
-            <div class="front-grass image"></div>
-            <div class="logo image"></div>
-            <div class="logo-shadow image"></div>
-            <div class="tree image"></div>
-            <div class="tower image"></div>
-            <div class="cliff image"></div>
-            <div class="sky image"></div>
-        </div>
-        <div class="button">
-            <a href="demo.html">
-                How It's Made
-            </a>
-        </div>
-    
-</body>
+  </head>
+  <body>
+    <div class="loader">
+      
+      <div class="loader-shadow"></div>
+      <div class="loader-pic"></div>
+    </div>
+
+    <div class="container">
+      <div class="text image"></div>
+      <div class="text-shadow image"></div>
+      <div class="frame1 image frame"></div>
+      <div class="frame2 image frame"></div>
+      <div class="front-leaves image"></div>
+      <div class="rapunzel image"></div>
+      <div class="side-chars image"></div>
+      <div class="front-grass image"></div>
+      <div class="logo image"></div>
+      <div class="logo-shadow image"></div>
+      <div class="tree image"></div>
+      <div class="tower image"></div>
+      <div class="cliff image"></div>
+      <div class="sky image"></div>
+      <div class="original image off"></div>
+    </div>
+
+    <div>
+      <a class="button demoButton" href="demo.html"> How It's Made </a>
+    </div>
+
+    <div class="button toggleButton">Toggle 3D</div>
+
+    <div class="disclaimer">This effect is best shown on a 16:9 display with hardware acceleration enabled in the browser.</div>
+  </body>
 </html>

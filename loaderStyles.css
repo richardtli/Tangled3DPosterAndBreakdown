@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    animation: loadingPicture 5s ease 1;
+    animation: loadingPicture 4s ease 1;
 }
 
 .loader-shadow {
@@ -33,7 +33,7 @@
     background-color: black;
     opacity: 50%;
     border-radius: 50%;
-    animation: loadingShadow 5s ease 1;
+    animation: loadingShadow 4s ease 1;
 }
  
 
